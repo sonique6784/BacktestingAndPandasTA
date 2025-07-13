@@ -13,7 +13,9 @@ I should highlight that, while the demo strategy I implemented has positive retu
 
 ## Install
 ```
-$ pip3 install -r requirements.txt 
+$ python3.9 -m venv .venv
+$ source .venv/bin/activate
+$ pip3 install -r requirements.txt
 ```
 
 This will install all required packages to run this project
